@@ -1,12 +1,13 @@
 import AboutMe from "../AboutMe/AboutMe";
-import '../styles/customstyles.css';
-import '../styles/commonStyles.css';
+import { Link } from "react-router-dom";
 
-
-function Dashboard(){
-    return (
-    <AboutMe/>
-    )
+function Dashboard({ isDesktop }) {
+  return (
+    <div class="dashboard">
+      {/* {isDesktop && <Link to="/abc">Click here</Link>}
+      => <a href="/abc">Click here</a> */}
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
