@@ -42,10 +42,16 @@
 .contact {
   padding: 2%;
 }
-.social {
+.footer {
   display: flex;
+  justify-content: space-between;
 }
-
+.footer-icon {
+  color: rgb(3, 211, 248);
+}
+.footer-social {
+  padding-left: 1.5vw;
+}
 li {
   display: inline;
 }

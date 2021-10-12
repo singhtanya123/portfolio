@@ -1,6 +1,3 @@
-import AboutMe from "../AboutMe/AboutMe";
-import { Link } from "react-router-dom";
-
 function Dashboard({ isDesktop }) {
   return (
     <div class="dashboard">
