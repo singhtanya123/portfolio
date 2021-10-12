@@ -184,8 +184,15 @@ a:link {
 }
 
 ol:hover {
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  color: #8fddfc;
   border-radius: 10%;
+}
+@media only screen and (max-width: 1000px) {
+  li {
+    grid-template-columns: 100%;
+    /* padding: 10px; */
+  }
 }
 
 .hover:hover {
@@ -230,4 +237,12 @@ a {
   padding: 1vw;
   font-size: 1em;
   text-align: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }

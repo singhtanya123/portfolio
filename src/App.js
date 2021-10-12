@@ -8,6 +8,8 @@ import { Switch, Route } from "react-router-dom";
 import Navbar from "./Header/Navbar";
 import AboutMe from "./AboutMe/AboutMe";
 import Work from "./Work/Work";
+import Education from "./Education/Education";
+import Contact from "./Footer/Contact";
 
 function App() {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -34,6 +36,14 @@ function App() {
 
           <Route path="/work" exact>
             <Work isDesktop={isDesktop} />
+          </Route>
+
+          <Route path="/education" exact>
+            <Education isDesktop={isDesktop} />
+          </Route>
+
+          <Route path="/Contact" exact>
+            <Contact isDesktop={isDesktop} />
           </Route>
         </Switch>
         <Footer />
