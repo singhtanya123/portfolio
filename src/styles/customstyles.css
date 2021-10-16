@@ -3,17 +3,42 @@
   box-sizing: border-box;
 }
 .dashboard {
-  display: flex;
+  text-align: center;
 }
-.navbarLogo {
-  font-family: "Festive", cursive;
+.dashLogo {
+  /* font-family: "Caveat", cursive; */
+  font-family: "Grechen Fuemen", cursive;
+  /* font-family: "Satisfy", cursive; */
+  letter-spacing: 0.5vw;
+  font-weight: 600;
   font-size: 3em;
+  color: rgb(115, 196, 186);
+}
+.dashLogo-subTitle {
+  font-size: 1.2em;
+  font-weight: normal;
+  font-family: "Caveat", cursive;
 }
 .navbarTitle {
   font-size: 1.5em;
   color: rgb(169, 224, 224);
 }
-
+.dashboard-home {
+  margin-top: 5%;
+}
+.dash-para {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.dashboard-aboutme {
+  margin-left: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* .dashboard-aboutme-para {
+  margin-left: 15%;
+  margin-right: 15%;
+} */
 .skills {
   font-weight: bold;
 }

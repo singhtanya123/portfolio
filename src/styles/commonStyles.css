@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Grey+Qo&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -89,9 +92,10 @@
 }
 
 .font {
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-weight: 500;
-  font-family: IBM Plex Sans, sans-serif;
+  /* font-family: IBM Plex Sans, sans-serif; */
+  font-family: "Caveat", cursive;
   overflow-wrap: break-word;
   letter-spacing: normal;
 }
@@ -111,18 +115,13 @@
 
 .truncate {
   text-overflow: ellipsis;
-
   /* Needed to make it work */
   overflow: hidden;
   white-space: nowrap;
 }
 
-.row {
+.flex {
   display: flex;
-}
-
-.column {
-  flex: content;
 }
 
 .text_center {
@@ -165,7 +164,7 @@
   color: #f6c5ad;
 }
 .secondary-color {
-  color: #956b4d;
+  color: #9c5f34;
 }
 
 .terary-color {
