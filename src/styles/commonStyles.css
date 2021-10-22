@@ -200,10 +200,17 @@ ol:hover {
 .block {
   display: block;
 }
-
+fieldset {
+  border: 5px solid rgb(178, 229, 236);
+  box-sizing: border-box;
+  grid-area: 1 / 1; /* first row, first column */
+  width: inherit;
+  margin: 2%;
+}
 .border {
   border: #66a5ad;
   border-radius: 5px;
+  /* width: fit-content; */
 }
 
 hgroup {
@@ -244,4 +251,8 @@ a {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+.btn {
+  background-color: #956b4d;
+  color: #eebe92;
 }
