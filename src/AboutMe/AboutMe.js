@@ -1,6 +1,14 @@
-const skills = ["HTML", "CSS", "SCSS/SASS", "JavaScript", "SQL", "Python"];
+const skills = [
+  "HTML",
+  "CSS",
+  "SCSS/SASS",
+  "JavaScript",
+  "SQL",
+  "Mongodb",
+  "RabbitMQ",
+];
 const frameworks = ["Vue.js", "Material-UI", "Vuetify"];
-const library = ["React", "Numpy", "Panda"];
+const library = ["React", "Jest", "FastifyAPI"];
 const devTools = ["VSCode", "Git"];
 // const devTools = [
 //   { name: "VSCode", icon: html },
