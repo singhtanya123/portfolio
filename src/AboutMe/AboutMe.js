@@ -16,17 +16,17 @@ const devTools = ["VSCode", "Git"];
 // ];
 function AboutMe({ isDesktop }) {
   return (
-    <div class="column display items_center padding">
+    <div className="column display items_center padding">
       <div className="primary-color primary-background-color padding hover border">
-        <div class="skills">About me</div>
-        <p class="padding-left terary-color font">
+        <div className="skills">About me</div>
+        <p className="padding-left terary-color font">
           {" "}
           I have been working in Wipro since 2.4. years now. I have worked on
           enhancing applications and build new functionalities and responsive
           sites to work for the clients. I have to interact with business for
           the requirements and the functionality to get the best output as
           clients desired. I have been using
-          <span class="footer-icon">
+          <span className="footer-icon">
             {" "}
             JavaScript, HTML, React, CSS, Vue.js{" "}
           </span>{" "}
@@ -37,8 +37,8 @@ function AboutMe({ isDesktop }) {
       </div>
       {/* Skills */}
       {isDesktop && (
-        <div class="grid-container margin">
-          <div class="card primary-background-color terary-color border padding ">
+        <div className="grid-container margin">
+          <div className="card primary-background-color terary-color border padding ">
             <header className="skills primary-color card-container">
               Languages
             </header>
@@ -48,7 +48,7 @@ function AboutMe({ isDesktop }) {
               </div>
             ))}
           </div>
-          <div class="card primary-background-color terary-color border padding">
+          <div className="card primary-background-color terary-color border padding">
             <header className="skills primary-color card-container">
               Framework
             </header>
@@ -58,7 +58,7 @@ function AboutMe({ isDesktop }) {
               </div>
             ))}
           </div>
-          <div class="card primary-background-color terary-color border padding">
+          <div className="card primary-background-color terary-color border padding">
             <header className="skills primary-color card-container">
               Library
             </header>
@@ -68,7 +68,7 @@ function AboutMe({ isDesktop }) {
               </div>
             ))}
           </div>
-          <div class="card primary-background-color terary-color border padding">
+          <div className="card primary-background-color terary-color border padding">
             <header className="skills primary-color card-container">
               Tools
             </header>
@@ -92,9 +92,9 @@ function AboutMe({ isDesktop }) {
       )}
 
       {/* Hobbies */}
-      <div class=" primary-background-color terary-color border padding hover margin-top">
+      <div className=" primary-background-color terary-color border padding hover margin-top">
         <header className="skills primary-color">Hobbies</header>
-        <div class="font">
+        <div className="font">
           <ol>- Dancing</ol>
           <ol>- Painting</ol>
           <ol>- Animes</ol>

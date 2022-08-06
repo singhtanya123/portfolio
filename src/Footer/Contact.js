@@ -24,7 +24,7 @@ function Contact() {
   return (
     <fieldset>
       <legend> Contact Me </legend>
-      <div class="font padding">
+      <div className="font padding">
         <div>
           <label>Name : </label>
           <input
@@ -63,7 +63,7 @@ function Contact() {
           onClick={() => {
             onSubmit();
           }}
-          class="btn"
+          className="btn"
         >
           Send
         </button>
